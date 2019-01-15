@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CalculatorMainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/DisplayView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Number_1"
+        android:layout_below="@+id/DisplayView"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="1"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Number_2"
+        android:layout_below="@+id/DisplayView"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/Number_1"
+        android:layout_marginTop="20dp"
+        android:text="2"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Number_3"
+        android:layout_below="@+id/DisplayView"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/Number_2"
+        android:layout_marginTop="20dp"
+        android:text="3"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Number_4"
+        android:layout_below="@+id/Number_1"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="4"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Number_5"
+        android:layout_below="@+id/Number_2"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/Number_4"
+        android:layout_marginTop="20dp"
+        android:text="5"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Number_6"
+        android:layout_below="@+id/Number_1"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/Number_5"
+        android:layout_marginTop="20dp"
+        android:text="6"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Number_7"
+        android:layout_below="@+id/Number_4"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="7"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Number_8"
+        android:layout_below="@+id/Number_4"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/Number_7"
+        android:layout_marginTop="20dp"
+        android:text="8"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Number_9"
+        android:layout_below="@+id/Number_4"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/Number_8"
+        android:layout_marginTop="20dp"
+        android:text="9"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Plus"
+        android:layout_below="@+id/Number_7"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="+"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Minus"
+        android:layout_below="@+id/Number_7"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/Plus"
+        android:layout_marginTop="20dp"
+        android:text="-"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/multiply"
+        android:layout_below="@+id/Number_7"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/Minus"
+        android:layout_marginTop="20dp"
+        android:text="*"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/divide"
+        android:layout_below="@+id/Plus"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="/"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back"
+        android:layout_below="@+id/Plus"
+        android:layout_toRightOf="@+id/divide"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="back"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/clear"
+        android:layout_below="@+id/Plus"
+        android:layout_toRightOf="@+id/back"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:text="AC"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/equalsTo"
+        android:layout_below="@+id/back"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="20dp"
+        android:text="="/>
+
+
+</RelativeLayout>
